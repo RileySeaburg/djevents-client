@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            // Shorten routes replaces "../../"
+            "@/components/*": ["components/*"],
+            "@/styles/*": ["styles/*"]
+        }
+    }
+}

@@ -1,13 +1,12 @@
-import React from 'react';
-
+import Layout from "@/components/Layout";
 const about = () => {
-    return (
-        <div>
-            <h1>About</h1>
-            <p>This is an app to find dj an musical events.</p>
-            <p>Version: 1.0.0</p>
-        </div>
-    );
-}
+  return (
+    <Layout title="About DJ Events">
+      <h1>About</h1>
+      <p>This is an app to find dj an musical events.</p>
+      <p>Version: 1.0.0</p>
+    </Layout>
+  );
+};
 
 export default about;
